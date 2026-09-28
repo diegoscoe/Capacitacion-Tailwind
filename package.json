@@ -1,0 +1,23 @@
+{
+  "name": "capacitaciontailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss ./src/tailwind.css -o ./public/css/main.css",
+    "build": "NODE_ENV=production postcss ./src/tailwind.css -o ./public/css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "postcss-cli": "^12.0.0",
+    "win-node-env": "^0.6.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^3.4.19"
+  }
+}
